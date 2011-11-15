@@ -3,13 +3,13 @@ MoSync HTML5 javascript runtime
 
 About
 ---------------
-This is an framework that introduces the possibility to run applications created for the MoSync SDK in an HTML5 enabled browser. In other words this means that programs written in pure C/C++ can run in a browser.
+This is an framework that introduces the possibility to run applications created with the MoSync SDK in an HTML5 enabled browser. In other words this means that programs written in pure C/C++ can run in a browser.
 
-It needs a program and a resource file built using the MoSync SDK. Programs are interpreted and are therefore able to return to the main loop at regular intervals. This way the javascript runtime isn't blocked by the execution.
+It needs a program and a resource file built using the MoSync SDK, found in the Output or FinalOutput folders of your project.
 
-The file called maapi.js is tightly associated with a specific MoSync version. A version compatible with the latest stable (2011-Oct-21) version of the MoSync SDK is commited but if you want to use a newer / older version of the MoSync SDK we strongly suggest you to download and build tools/idl2 in the MoSync source (downloadable from www.mosync.com or clonable from www.github.com/MoSync) of the version you want to use it with. When idl2 has been executed a maapi.js file will be placed in the Output folder. In order to use it it is just a matter of copying it from that folder to the folder where you keep maapi.js.
+The file called maapi.js is tightly associated with a specific MoSync version. A version compatible with the latest stable (2011-Oct-21) version of the MoSync SDK is commited but if you want to use a newer / older version of the MoSync SDK we strongly suggest you to download and build tools/idl2 in the MoSync source (downloadable from www.mosync.com or clonable from www.github.com/MoSync) of the version you want to use it with. When idl2 has been executed a maapi.js file will be placed in the Output folder. In order to use it it is just a matter of copying it from that folder to the folder where you keep mosync.js.
 
-Included as an example is Motris (a simple tetris clone). Just clone the repo and run the index.html (Chrome might complain, saying "Cross origin requests are only supported for HTTP". This security mechanism can however be turned off or solved by browsing to the page over http)
+Included as an example is Motris (a simple tetris clone). Just clone the repo and run the index.html (Chrome might complain, saying "Cross origin requests are only supported for HTTP". This security mechanism can however be turned off or solved by browsing to the page over http).
 
 Resource types supported
 ---------------
