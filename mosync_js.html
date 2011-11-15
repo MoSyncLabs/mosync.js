@@ -1,0 +1,24 @@
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<SCRIPT LANGUAGE="JavaScript" SRC="mosync.js">
+	</SCRIPT>
+</HEAD>
+<BODY onload="_start('program', 'resources')">
+	<div id="msCanvasContainer">
+	<CANVAS id="msCanvas" width="640" height="480">
+	</CANVAS>
+	</div>
+	
+	<form name="testform"> 
+	<INPUT TYPE="button" NAME="start" Value="Start" onClick="core.start();">
+	<INPUT TYPE="button" NAME="stop" Value="Stop" onClick="core.stop();">
+	<INPUT TYPE="button" NAME="download" Value="Download" onClick="core.init(document.mosyncprogram.program.value, document.mosyncprogram.resource.value);">
+	</form>
+
+	<form name="mosyncprogram">
+	program: <input type="text" name="program" /><br />
+	resource: <input type="text" name="resource" />
+	</form> 
+</BODY>
+</HTML>
