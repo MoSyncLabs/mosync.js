@@ -16,47 +16,45 @@ Resource types supported
 
 Placeholders, binaries, unloaded binaries (implemented as binaries), images.
 
-Native features (syscalls/ioctls) implemented:
+Native features (syscalls/ioctls) implemented
 ---------------
 
-maSetClipRect
-maGetClipRect
-maGetEvent
-maWait
-maGetMilliSecondCount
-maSetColor
-maGetScrSize
-maFillRect
-maUpdateScreen
-maDrawText
-maGetTextSize
-maDrawTextW
-maGetTextSizeW
-maDrawImage
-maDrawImageRegion (no rotations)
-maGetImageData
-maCreateImageRaw
-maCreateImageFromData
-maCreateDrawableImage
-maSetDrawTarget
-maGetImageSize
-maLocalTime
-maTime
-maCheckInterfaceVersion
+	maSetClipRect
+	maGetClipRect
+	maGetEvent
+	maWait
+	maGetMilliSecondCount
+	maSetColor
+	maGetScrSize
+	maFillRect
+	maUpdateScreen
+	maDrawText
+	maGetTextSize
+	maDrawTextW
+	maGetTextSizeW
+	maDrawImage
+	maDrawImageRegion (no rotations)
+	maGetImageData
+	maCreateImageRaw
+	maCreateImageFromData
+	maCreateDrawableImage
+	maSetDrawTarget
+	maGetImageSize
+	maLocalTime
+	maTime
+	maCheckInterfaceVersion
+	maCreatePlaceholder
+	maCreateData
+	maGetDataSize
+	maWriteData
+	maReadData
+	maFrameBufferGetInfo
+	maFrameBufferInit
+	maFrameBufferClose
+	maPanic
+	maWriteLog (outputs to the debug console)
 
-maCreatePlaceholder
-maCreateData
-maGetDataSize
-maWriteData
-maReadData
-maFrameBufferGetInfo
-maFrameBufferInit
-maFrameBufferClose
-
-maPanic
-maWriteLog (outputs to the debug console)
-
-Super experimental OpenGL|ES 2.0 support.
+Also super experimental OpenGL|ES 2.0 support.
 
 License
 ---------------
